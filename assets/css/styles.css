@@ -18,6 +18,7 @@ header {
 .container {
     padding: 10px;
     width: calc(100% - 20px);
+    max-width: 100%;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -70,5 +71,111 @@ header a {
     text-decoration: none;
 }
 header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.area-logo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+    align-items: center;
+}
+
+.pesquisa {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisa-box {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #dfe1e5;
+    border-radius: 22px;
+    padding: 0 8px;
+}
+.pesquisa-box:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(31, 32, 35, 0.278);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.box-1,
+.box-2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.lupa,
+.limpar,
+.teclado,
+.voz {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    color: #5f6368;
+}
+
+.limpar {
+    padding: 0 12px;
+    margin-right: 8px;
+    border-right: 1px solid #dfe1e5;
+}
+
+.pesquisa-box input {
+    font-size: 15px;
+    border: none;
+    height: 30px;
+    min-width: 400px;
+}
+.pesquisa-box input:focus-visible {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+}
+
+.botoes button {
+    font-size: 14px;
+    height: 35px;
+    padding: 0 16px;
+    margin: 8px 6px;
+    color: #3c4043;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.botoes button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    margin: 24px 0;
+}
+
+.language a {
+    padding: 0 6px;
+    text-decoration: none;
+}
+.language a:hover {
     text-decoration: underline;
 }
