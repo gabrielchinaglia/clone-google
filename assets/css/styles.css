@@ -166,16 +166,48 @@ section {
 }
 
 .language {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 13px;
     margin: 24px 0;
+    color: #3c4043;
 }
 
 .language a {
-    padding: 0 6px;
+    padding: 0 4px;
     text-decoration: none;
 }
 .language a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #70757a;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+.footer-1 {
+    padding: 15px 30px;
+    font-size: 15px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer-2 {
+    font-size: 14px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-2 a {
+    display: inline-block;
+    color: #70757a;
+    padding: 15px;
+    text-decoration: none;
+}
+.footer-2 a:hover {
     text-decoration: underline;
 }
