@@ -181,7 +181,7 @@ section {
 .language {
     text-align: center;
     font-size: 13px;
-    margin: 24px 0;
+    margin: 24px 0 40px 0;
     color: #3c4043;
 }
 
@@ -298,6 +298,14 @@ footer {
 
     .pesquisa-box {
         max-width: 90%;
+    }
+
+}
+
+@media (max-height: 600px) and (orientation: landscape) {
+
+    footer {
+        position: relative;
     }
 
 }
